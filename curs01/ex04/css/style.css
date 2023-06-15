@@ -1,0 +1,18 @@
+body {
+  background: bisque;
+}
+
+.test .alta-clasa {
+  background: rebeccapurple;
+}
+.test .a-2-alta {
+  text-align: center;
+}
+.test .a-3-alta {
+  color: green;
+}
+.test .a-3-alta .a-4-alta {
+  background-color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */

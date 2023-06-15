@@ -1,0 +1,17 @@
+body {
+  background: bisque;
+}
+.test {
+  .alta-clasa {
+    background: rebeccapurple;
+  }
+  .a-2-alta {
+    text-align: center;
+  }
+  .a-3-alta {
+    color: green;
+    .a-4-alta {
+      background-color: aliceblue;
+    }
+  }
+}
