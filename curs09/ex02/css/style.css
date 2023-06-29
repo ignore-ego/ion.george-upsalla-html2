@@ -48,3 +48,14 @@ body {
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container-05 {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  align-items: flex-start;
+}
