@@ -33,7 +33,7 @@
   </header>
 
   <form>
-    <section class="general container">
+    <section class="general container mb-4">
       <header class="mb-3">
         <h1>Reteta</h1>
       </header>
@@ -109,16 +109,167 @@
     </section>
     <!-- ./general -->
 
-    <section class="author"></section>
+    <section class="author container mb-4">
+      <header class="mb-3">
+        <h1>Autor (optional)</h1>
+      </header>
+
+      <div class="row mb-3">
+        <div class="col">
+          <div class="form-check form-switch">
+            <input
+              type="checkbox"
+              name="add-author"
+              id="add-author"
+              class="form-check-input"
+            >
+
+            <label
+              for="add-author"
+              class="form-check-label"
+            >Adauga autor</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column gap-3">
+          <!-- adauga nume prenume required -->
+
+          <div class="input-group">
+            <label
+              for="author-email"
+              class="input-group-text align-items-start"
+            >
+              Emailul autorului
+            </label>
+
+            <input
+              type="email"
+              name="author-email"
+              id="author-email"
+              required
+              placeholder="Email"
+              class="form-control"
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-3 mt-lg-0 d-flex flex-column gap-3">
+          <!-- adauga website (fara required) -->
+
+        </div>
+      </div>
+    </section>
     <!-- ./author -->
 
-    <section class="ingredients"></section>
+    <section class="ingredients container mb-4">
+      <header class="mb-3">
+        <h1>Ingrediente</h1>
+      </header>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group">
+            <label
+              for="ingredient-name"
+              class="input-group-text align-items-start"
+            >
+              Nume Ingredient
+            </label>
+
+            <input
+              type="text"
+              name="ingredient-name"
+              id="ingredient-name"
+              placeholder="Nume ingredient"
+              required
+              class="form-control"
+            >
+
+            <button
+              type="button"
+              title="Adauga"
+              class="btn btn-info text-white"
+            >Adauga
+
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-3 mt-lg-0">
+          <header class="mb-3">
+            <h2>Lista ingrediente</h2>
+          </header>
+
+          <ul class="p-0">
+            <li class="d-flex align-items-center gap-2">
+              10g ulei
+              <button
+                class="btn btn-primary"
+                title="Editeaza"
+                type="button"
+              >Editeaza</button>
+
+              <button
+                class="btn btn-danger"
+                title="Sterge"
+                type="button"
+              >Sterge</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
     <!-- ./ingredients -->
 
-    <section class="steps"></section>
+    <section class="steps container mb-4">
+      <header class="mb-3">
+        <h1>Pasi</h1>
+      </header>
+
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column gap-3">
+          <!-- adaug inputuri text + textarea pas , subtitle descriere -->
+
+          <div class="d-flex justify-content-end">
+            <button
+              class="btn btn-outline-danger me-2"
+              type="button"
+              title="Reseteaza"
+            >
+              Reseteaza
+            </button>
+
+            <button
+              class="btn btn-primary"
+              type="button"
+              title="Adauga pas"
+            >
+              Adauga pas
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ./steps -->
 
-    <section class="controls"></section>
+    <section class="controls container pt-4">
+      <div class="d-flex justify-content-center gap-2">
+        <button
+          type="reset"
+          class="btn btn-outline-danger btn-lg"
+          title="Reseteaza"
+        >Reseteaza</button>
+
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg"
+          title="Salveaza"
+        >Salveaza</button>
+      </div>
+    </section>
     <!-- ./controls -->
   </form>
 

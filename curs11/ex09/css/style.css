@@ -36,3 +36,11 @@
 .grid-item-5 {
   grid-column: 1 / span 2;
 }
+
+.grid-container-01 .grid-item-1 {
+  order: -1;
+}
+
+.grid-container-01 .grid-item-4 {
+  order: -1;
+}
