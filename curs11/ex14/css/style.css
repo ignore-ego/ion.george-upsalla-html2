@@ -22,3 +22,42 @@
 }
 
 /* please do not modify this code */
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  grid-template-areas:
+    'header'
+    'content'
+    'sidebar'
+    'footer';
+}
+
+.grid-item-1 {
+  grid-area: header;
+}
+
+.grid-item-2 {
+  grid-area: content;
+}
+
+.grid-item-3 {
+  grid-area: sidebar;
+}
+
+.grid-item-4 {
+  grid-area: footer;
+}
+
+@media (min-width: 521px) {
+  .grid-container {
+    grid-template-areas:
+      'header'
+      'sidebar'
+      'content'
+      'footer';
+  }
+}
