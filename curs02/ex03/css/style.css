@@ -6,4 +6,20 @@
   background-color: lightgray;
 }
 
+.btn-secondary {
+  color: blue;
+}
+
+.btn-inverted {
+  background-color: transparent;
+}
+
+.btn-tertiary {
+  color: green;
+}
+
+.btn-text-gray {
+  color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */

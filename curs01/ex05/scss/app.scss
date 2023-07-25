@@ -37,3 +37,29 @@ ul {
     padding: 10px 20px;
   }
 }
+
+$aHover: magenta;
+$aActive: pink;
+$aVisited: lightcoral;
+
+ol a {
+  &:hover {
+    color: $aHover;
+  }
+
+  &:active {
+    color: $aActive;
+  }
+
+  &:visited {
+    color: $aVisited;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  .all-visited & {
+    text-decoration: line-through;
+  }
+}
