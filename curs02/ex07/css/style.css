@@ -24,4 +24,44 @@
   color: gray;
 }
 
+.btn-bg-main {
+  background: red;
+}
+
+.btn-bg-primary {
+  background: blue;
+}
+
+.btn-bg-secondary {
+  background: green;
+}
+
+.btn-bg-tertiary {
+  background: yellow;
+}
+
+.btn-bg-neutral {
+  background: gray;
+}
+
+.text-main {
+  color: red;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.text-secondary {
+  color: green;
+}
+
+.text-tertiary {
+  color: yellow;
+}
+
+.text-neutral {
+  color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */

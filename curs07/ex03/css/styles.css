@@ -60,3 +60,41 @@
     transform: translateY(-50px);
   }
 }
+
+.animation3 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader-3 {
+  display: flex;
+  gap: 5px;
+}
+
+.loader-3 span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: black;
+  animation: slide 1s linear infinite alternate;
+}
+
+.loader-3 span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.loader-3 span:nth-child(3) {
+  animation-delay: 0.7s;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}

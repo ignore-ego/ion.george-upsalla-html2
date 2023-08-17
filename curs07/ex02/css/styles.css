@@ -31,4 +31,24 @@ body {
 }
 
 .box-02 {
+  animation: box-02 10s ease-out;
+}
+
+@keyframes box-02 {
+  20% {
+    transform: translateY(calc(100vh - var(--d)));
+  }
+
+  40% {
+    transform: translate(calc(100vw + var(--d)), calc(100vh + var(--d)));
+  }
+
+  60% {
+  }
+
+  80% {
+  }
+
+  100% {
+  }
 }
